@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: #050505;
+    font-size: large;
+}
+
+/*----INICIO DE HAEDER----*/
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(119, 194, 169, 0.847);
+    flex-direction: row;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo p {
+    margin: 10px;
+
+}
+
+.df-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+   }
+
+.df-ul li {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+#house {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+    
+}
+
+.barra-ofertas{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px solid black;
+   
+}
+
+.categoria-h1{
+   display: flex;
+   justify-content: center;
+   margin-left: 30%;
+   font-size: 150%;
+   font-family: 'Roboto Condensed', sans-serif;
+   margin-bottom: 5%;
+   margin-top: 1%;
+}
+
+.categorias-img{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   margin-left: 30%;
+   margin-right: 2%;
+   float: 6%;
+}
+
+
+/*----FIN DE HAEDER----*/
+
+/*----INICIO DE MAIN----*/
+
+.min-height {
+    min-height: 140vh;
+    justify-content: space-around;
+    width: 1024px;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    font-size: larger; 
+    }
+
+.objetivo-espacio{
+    margin-top: 5%;
+}
+
+.ideas-casa{
+    width: 1024px;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: larger; 
+}
+
+.ideas-img{
+   display: flex;
+    text-align: center;
+    width: 7cm;
+    height: 7cm;
+    width: 1024px;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    }
+
+    .nosotos-text{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+.img-logo{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.title-inicio{
+    justify-content: space-around;
+    font-size: large;
+    margin: 10px;
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.form-inicio{
+    margin: 10px;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter
+}
+
+.fav-img{
+    display: flex;
+}
+
+.w-100{
+    max-height: 600px;
+    width: 30px;
+}
+.titulo-encontra{
+    color: #050505;
+}
+.encontra-ideas{
+    color: #050505;
+}
+
+
+/*----FIN DE MAIN----*/
+
+/*----INICIO DE FOOTER----*/
+.bg-footer {
+    background-color: rgb(119, 194, 169);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.type-color {
+    color: #050505;
+    font-size: 20px;
+}
+
+.redes a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease-in;
+    color: #fff8f8;
+}
+
+/*----FIN DE FOOTER----*/
+
+/*---PÁGINA RESPONSIVE---*/
+@media screen and(max-width:120opx){
+    
+}
